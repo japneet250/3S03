@@ -1,0 +1,6 @@
+com/example/shop/OrderTest.class
+com/example/shop/OrderServiceTest.class
+com/example/shop/OrderItemTest.class
+com/example/shop/PricingServiceTest.class
+com/example/shop/PaymentValidatorTest.class
+com/example/shop/DiscountServiceTest.class
