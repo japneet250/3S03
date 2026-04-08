@@ -1,12 +1,12 @@
 package com.velocity;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import java.time.Duration;
 import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
-import static org.junit.jupiter.api.Assertions.*;
-import java.time.Duration;
 
 public class WebTest {
 

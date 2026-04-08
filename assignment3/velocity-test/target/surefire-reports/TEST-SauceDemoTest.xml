@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.velocity.WebTest" time="37.576" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SauceDemoTest" time="45.131" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="webdriver.chrome.driver" value="/snap/bin/chromium.chromedriver"/>
@@ -56,76 +56,108 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testDropdownHasTwoOptions" classname="com.velocity.WebTest" time="11.412">
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Apr 07, 2026 11:29:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testProductsAreDisplayed" classname="SauceDemoTest" time="2.543">
+    <system-err><![CDATA[Apr 07, 2026 11:29:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:29:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidUsername" classname="com.velocity.WebTest" time="2.563">
-    <system-err><![CDATA[Apr 07, 2026 11:29:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testValidLogin" classname="SauceDemoTest" time="2.436">
+    <system-err><![CDATA[Apr 07, 2026 11:29:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:29:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testSelectByValue" classname="com.velocity.WebTest" time="2.27">
-    <system-err><![CDATA[Apr 07, 2026 11:29:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testAddMultipleItemsToCart" classname="SauceDemoTest" time="2.454">
+    <system-err><![CDATA[Apr 07, 2026 11:29:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:29:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testValidLogin" classname="com.velocity.WebTest" time="2.48">
-    <system-err><![CDATA[Apr 07, 2026 11:29:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testCheckoutWithEmptyFieldsShowsError" classname="SauceDemoTest" time="2.595">
+    <system-err><![CDATA[Apr 07, 2026 11:29:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:29:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testInvalidPassword" classname="com.velocity.WebTest" time="3.693">
-    <system-err><![CDATA[Apr 07, 2026 11:29:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testAddItemToCart" classname="SauceDemoTest" time="2.343">
+    <system-err><![CDATA[Apr 07, 2026 11:29:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:29:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testEmptyFieldsLogin" classname="com.velocity.WebTest" time="2.437">
-    <system-err><![CDATA[Apr 07, 2026 11:29:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testSortProductsLowToHigh" classname="SauceDemoTest" time="2.577">
+    <system-err><![CDATA[Apr 07, 2026 11:29:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:29:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testSelectOptionOne" classname="com.velocity.WebTest" time="4.683">
-    <system-err><![CDATA[Apr 07, 2026 11:29:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testRemoveItemFromCart" classname="SauceDemoTest" time="7.297">
+    <system-err><![CDATA[Apr 07, 2026 11:30:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:30:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testSelectOptionTwo" classname="com.velocity.WebTest" time="2.403">
-    <system-err><![CDATA[Apr 07, 2026 11:29:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testProductsPageLoads" classname="SauceDemoTest" time="4.846">
+    <system-err><![CDATA[Apr 07, 2026 11:30:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:30:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testLogout" classname="com.velocity.WebTest" time="2.995">
-    <system-err><![CDATA[Apr 07, 2026 11:29:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testLockedOutUser" classname="SauceDemoTest" time="2.464">
+    <system-err><![CDATA[Apr 07, 2026 11:30:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:30:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="testDefaultDropdownOption" classname="com.velocity.WebTest" time="2.63">
-    <system-err><![CDATA[Apr 07, 2026 11:29:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="testLogout" classname="SauceDemoTest" time="2.984">
+    <system-err><![CDATA[Apr 07, 2026 11:30:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 146
-Apr 07, 2026 11:29:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Apr 07, 2026 11:30:16 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin" classname="SauceDemoTest" time="2.207">
+    <system-err><![CDATA[Apr 07, 2026 11:30:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 11:30:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testViewCart" classname="SauceDemoTest" time="2.445">
+    <system-err><![CDATA[Apr 07, 2026 11:30:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 11:30:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCheckoutStepOne" classname="SauceDemoTest" time="2.334">
+    <system-err><![CDATA[Apr 07, 2026 11:30:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 11:30:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCheckoutStepTwo" classname="SauceDemoTest" time="2.242">
+    <system-err><![CDATA[Apr 07, 2026 11:30:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 11:30:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCompleteOrder" classname="SauceDemoTest" time="3.346">
+    <system-err><![CDATA[Apr 07, 2026 11:30:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 07, 2026 11:30:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 146.0.7680.164. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
